@@ -50,7 +50,7 @@ public class Lab {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        return stack.removeFirst();
+        return stack.removeLast();
     }
     /**
      * Peek the value at the top of a deque.
